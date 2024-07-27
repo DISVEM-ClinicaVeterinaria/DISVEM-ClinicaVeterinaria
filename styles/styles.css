@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #2C76FB;
+    background-color: #DB81B4;
     padding: 1em;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ header {
 
 .about h2 {
     font-size: 2em;
-    color: #2C76FB;
+    color: #52EEED;
     margin-bottom: 0.5em;
 }
 
@@ -94,7 +94,7 @@ nav a {
 
 
 .hero {
-    background: linear-gradient(135deg, #7AB8F5, #7AB8F5);
+    background: linear-gradient(135deg, #DB81B4, #52EEED);
     padding: 3em;
     text-align: center;
     border-radius: 10px;
@@ -143,14 +143,14 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #2C76FB;
+    color: #52EEED;
 }
 
 .products h3 {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #2C76FB;
+    color: #52EEED;
 }
 
 .products ul {
@@ -209,7 +209,7 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #2C76FB;
+    color: #52EEED;
 }
 
 .hours {
@@ -223,7 +223,7 @@ nav a {
 }
 
 .hours h2 {
-    color: #2C76FB;
+    color: #52EEED;
     font-size: 2em;
     margin-bottom: 1em;
 }
@@ -251,7 +251,7 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #2C76FB;
+    color: #52EEED;
 }
 
 .faq-item {
@@ -264,7 +264,7 @@ nav a {
 
 .faq-item h3 {
     font-size: 1.2em;
-    color: #2C76FB;
+    color: #52EEED;
     margin-bottom: 0.5em;
 }
 
@@ -282,7 +282,7 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #2C76FB;
+    color: #52EEED;
 }
 
 /* Carousel Styles */
@@ -437,4 +437,3 @@ footer .social-media img {
         font-size: 1em;
     }
 }
-
