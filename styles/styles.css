@@ -353,3 +353,88 @@ footer .social-media img {
     width: 24px;
     height: 24px;
 }
+
+/* Ajustes generales para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Estilos para el header en dispositivos móviles */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        max-height: 40px; /* Reducir el tamaño del logo */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+    /* Ajustes para la sección del logo */
+    #logo-section img {
+        max-width: 100%;
+        height: auto; /* Mantener la proporción del logo */
+    }
+
+    /* Ajustes para la sección de productos */
+    .products ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .products img {
+        height: auto;
+    }
+
+}
+
+/* Ajustes adicionales para pantallas más pequeñas */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .hero button {
+        padding: 0.5em 1em;
+        font-size: 0.9em;
+    }
+
+    .products h3 {
+        font-size: 1.2em;
+    }
+
+    .products p {
+        font-size: 0.9em;
+    }
+
+    .faq-item h3 {
+        font-size: 1em;
+    }
+
+    .faq-item p {
+        font-size: 0.9em;
+    }
+
+    .hours-info {
+        font-size: 1em;
+    }
+}
+
