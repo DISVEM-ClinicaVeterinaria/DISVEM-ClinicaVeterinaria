@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FBF1E7;
+    color: #333;
+}
+
+header {
+    background-color: #2C76FB;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    background-color: #FFFFFF;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #2C76FB;
+    margin-bottom: 0.5em;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about li {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 0.5em;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* Estilo para la sección del logo */
+#logo-section {
+    background-color: #FBF1E7;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#logo-section img {
+    max-width: 450px; /* Ajusta el tamaño máximo del logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+.hero {
+    background: linear-gradient(135deg, #7AB8F5, #7AB8F5);
+    padding: 3em;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero button {
+    background-color: #FBF1E7;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #333;
+}
+
+.products {
+    background-color: #FFFFFF;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: #2C76FB;
+}
+
+.products h3 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: #2C76FB;
+}
+
+.products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products li {
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 1em;
+    width: calc(25% - 20px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.products li:hover {
+    transform: translateY(-10px);
+}
+
+.products img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.products h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.products p {
+    font-size: 1em;
+    color: #777;
+}
+
+.location {
+    background-color: #FFFFFF;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: #2C76FB;
+}
+
+.hours {
+    background-color: #ffffff;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hours h2 {
+    color: #2C76FB;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.hours-info {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.hours-info p {
+    margin-bottom: 0.5em;
+}
+
+/* FAQ Section */
+.faq {
+    background-color: #FFFFFF;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: #2C76FB;
+}
+
+.faq-item {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+    color: #2C76FB;
+    margin-bottom: 0.5em;
+}
+
+/* Gallery Section */
+.gallery {
+    background-color: #FFFFFF;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: #2C76FB;
+}
+
+/* Carousel Styles */
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajusta según el tamaño que desees */
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: 200%; /* Ajustado para mostrar el efecto de loop con duplicación */
+    animation: slide 15s linear infinite;
+}
+
+.carousel-slide {
+    flex: 1;
+    min-width: 33.333%; /* Ajustado para mostrar 3 imágenes a la vez */
+    box-sizing: border-box;
+    padding: 0 10px; /* Espaciado opcional entre las imágenes */
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Animation */
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #414141;
+    padding: 1em;
+    text-align: center;
+    color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .info {
+    margin-bottom: 1em;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 24px;
+    height: 24px;
+}
