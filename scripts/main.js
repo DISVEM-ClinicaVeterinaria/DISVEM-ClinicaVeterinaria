@@ -3,29 +3,26 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
-
             document.querySelector(this.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });
         });
     });
 
-    // Inicialización de Swiper
-    var swiper = new Swiper('.swiper-container', {
-        loop: true, // Habilita el bucle infinito para el carrusel
-        autoplay: {
-            delay: 3000, // Tiempo en ms antes de cambiar a la siguiente imagen
-            disableOnInteraction: false, // Permite que el autoplay siga funcionando después de la interacción
-        },
-        speed: 1000, // Ajusta la velocidad de transición entre imágenes
-        effect: 'slide', // Efecto de transición para el carrusel
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+    const galleryGrid = document.querySelector('.gallery-grid');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    
+    galleryGrid.addEventListener('click', (e) => {
+      if (e.target.tagName === 'IMG') {
+        const imgSrc = e.target.src;
+        lightboxImg.src = imgSrc;
+        lightbox.style.display = 'block';
+      }
     });
+    
+    lightbox.addEventListener('click', () => {
+      lightbox.style.display = 'none';
+    });
+
 });
