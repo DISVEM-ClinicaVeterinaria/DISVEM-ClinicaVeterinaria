@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #DB81B4;
+    background-color: #008582;
     padding: 1em;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ header {
 
 .about h2 {
     font-size: 2em;
-    color: #52EEED;
+    color: #008582;
     margin-bottom: 0.5em;
 }
 
@@ -94,7 +94,7 @@ nav a {
 
 
 .hero {
-    background: linear-gradient(135deg, #DB81B4, #52EEED);
+    background: linear-gradient(135deg, #008582, #008582);
     padding: 3em;
     text-align: center;
     border-radius: 10px;
@@ -143,14 +143,14 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #52EEED;
+    color: #008582;
 }
 
 .products h3 {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #52EEED;
+    color: #008582;
 }
 
 .products ul {
@@ -209,7 +209,7 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #52EEED;
+    color: #008582;
 }
 
 .hours {
@@ -223,7 +223,7 @@ nav a {
 }
 
 .hours h2 {
-    color: #52EEED;
+    color: #008582;
     font-size: 2em;
     margin-bottom: 1em;
 }
@@ -251,7 +251,7 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #52EEED;
+    color: #008582;
 }
 
 .faq-item {
@@ -264,7 +264,7 @@ nav a {
 
 .faq-item h3 {
     font-size: 1.2em;
-    color: #52EEED;
+    color: #008582;
     margin-bottom: 0.5em;
 }
 
@@ -282,7 +282,7 @@ nav a {
     text-align: center;
     margin-bottom: 1.5em;
     font-size: 2em;
-    color: #52EEED;
+    color: #008582;
 }
 
 /* Carousel Styles */
