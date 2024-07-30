@@ -20,9 +20,16 @@ document.addEventListener('DOMContentLoaded', function() {
         lightbox.style.display = 'block';
       }
     });
+
+    galleryGrid.addEventListener('touchend', (e) => {
+      if (e.target.tagName === 'IMG') {
+        const imgSrc = e.target.src;
+        lightboxImg.src = imgSrc;
+        lightbox.style.display = 'block';
+      }
+    });
     
     lightbox.addEventListener('click', () => {
       lightbox.style.display = 'none';
     });
-
 });
