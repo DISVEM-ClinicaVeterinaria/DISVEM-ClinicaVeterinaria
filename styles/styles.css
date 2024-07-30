@@ -285,44 +285,36 @@ nav a {
     color: #008582;
 }
 
-/* Carousel Styles */
-.carousel {
-    overflow: hidden;
-    position: relative;
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .gallery-grid img {
     width: 100%;
-    height: 300px; /* Ajusta según el tamaño que desees */
-}
-
-.carousel-wrapper {
-    display: flex;
-    width: 200%; /* Ajustado para mostrar el efecto de loop con duplicación */
-    animation: slide 15s linear infinite;
-}
-
-.carousel-slide {
-    flex: 1;
-    min-width: 33.333%; /* Ajustado para mostrar 3 imágenes a la vez */
-    box-sizing: border-box;
-    padding: 0 10px; /* Espaciado opcional entre las imágenes */
-}
-
-.carousel-slide img {
-    width: 100%;
-    height: 100%;
+    height: 150px;
     object-fit: cover;
     border-radius: 5px;
-}
-
-/* Animation */
-@keyframes slide {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-}
-
+    cursor: pointer;
+  }
+  
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+  }
+  
+  .lightbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+  }
 
 
 .map-container {
